@@ -1,4 +1,4 @@
-import { Accordion, Badge, Container, ListGroup, Spinner, Stack } from "react-bootstrap";
+import { Accordion, Badge, Container, ListGroup, Nav, Stack } from "react-bootstrap";
 
 const About = () => {
     return (
@@ -18,12 +18,18 @@ const About = () => {
                     <Accordion.Body>
                         <ListGroup>
                             <ListGroup.Item>Aditya Waghmare</ListGroup.Item>
-                            <ListGroup.Item>Github Link: </ListGroup.Item>
+                            <ListGroup.Item>
+                                Github Link:
+                                <Nav className="flex-column">
+                                    <Nav.Link href="https://github.com/adityawaghmare21/phone_dictionary_fe">Frontend</Nav.Link>
+                                    <Nav.Link href="https://github.com/adityawaghmare21/phone_dictionary_be1">BackEnd</Nav.Link>
+                                </Nav>
+                            </ListGroup.Item>
                             <ListGroup.Item>Tech stack:
                                 <Stack direction="horizontal" gap={2}>
                                     <Badge bg="primary">ReactJS</Badge>
                                     <Badge bg="primary">JAVA</Badge>
-                                    <Badge bg="secondary">Postgress</Badge>
+                                    <Badge bg="secondary">Postgres</Badge>
                                     <Badge bg="secondary">Bootstrap</Badge>
                                     <Badge bg="secondary">Springboot</Badge>
                                 </Stack>
