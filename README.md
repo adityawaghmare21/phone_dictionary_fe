@@ -7,10 +7,17 @@ Thank you!
 
 ## Table of Contents
 
+- [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+
+## Prerequisites
+
+Before you begin, ensure you have the following prerequisites:
+
+Editor OR IDE - preferred Visual Studio
 
 ## Installation
 
